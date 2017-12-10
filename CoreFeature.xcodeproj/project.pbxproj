@@ -10,6 +10,7 @@
 		EE1E345E1FDD91F3006D0F31 /* CoreFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E34541FDD91F3006D0F31 /* CoreFeature.framework */; };
 		EE1E34631FDD91F3006D0F31 /* CoreFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E34621FDD91F3006D0F31 /* CoreFeatureTests.swift */; };
 		EE1E34651FDD91F3006D0F31 /* CoreFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1E34571FDD91F3006D0F31 /* CoreFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1E34EA1FDDA2DA006D0F31 /* MicrofeatureNetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E34EB1FDDA2DA006D0F31 /* MicrofeatureNetworkModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		EE1E345D1FDD91F3006D0F31 /* CoreFeatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreFeatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1E34621FDD91F3006D0F31 /* CoreFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreFeatureTests.swift; sourceTree = "<group>"; };
 		EE1E34641FDD91F3006D0F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1E34EB1FDDA2DA006D0F31 /* MicrofeatureNetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MicrofeatureNetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE1E34EA1FDDA2DA006D0F31 /* MicrofeatureNetworkModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +59,7 @@
 				EE1E34561FDD91F3006D0F31 /* CoreFeature */,
 				EE1E34611FDD91F3006D0F31 /* CoreFeatureTests */,
 				EE1E34551FDD91F3006D0F31 /* Products */,
+				EE1E34E91FDDA2DA006D0F31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +88,14 @@
 				EE1E34641FDD91F3006D0F31 /* Info.plist */,
 			);
 			path = CoreFeatureTests;
+			sourceTree = "<group>";
+		};
+		EE1E34E91FDDA2DA006D0F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E34EB1FDDA2DA006D0F31 /* MicrofeatureNetworkModule.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

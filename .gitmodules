@@ -1,0 +1,3 @@
+[submodule "MicrofeatureNetworkModule"]
+	path = MicrofeatureNetworkModule
+	url = https://github.com/ronzohan/MicrofeatureNetworkModule
